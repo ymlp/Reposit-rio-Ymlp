@@ -1,0 +1,22 @@
+@font-face
+{
+    font-family:'Gemunu-Medium';
+    src: url('font/GemunuLibre-Medium.ttf');
+}
+@font-face
+{
+    font-family: 'Genumu-ExtraBold';
+    src: url('font/GemunuLibre-ExtraBold.ttf');  
+}
+@font-face
+{
+    font-family: 'Genumu-SemiBold';
+    src: url('font/GemunuLibre-SemiBold.ttf');  
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('Image/Fund.png');
+}
+

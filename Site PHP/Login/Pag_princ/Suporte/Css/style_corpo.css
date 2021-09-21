@@ -1,0 +1,142 @@
+@font-face 
+{
+    font-family:GemunuLibre-Regular;
+    src: url(font/GemunuLibre-Regular.ttf);
+
+}
+*
+{
+    font-family: GemunuLibre-Regular;
+}
+body
+{
+    font-family: GemunuLibre-Regular;;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-image: url('Image/Fund.png');
+}
+.corpo
+{
+    display: flex ;
+    width: 100%;
+    height: 94vh;
+}
+.box
+{
+    width:60vw;
+    height: 85vh;
+    background: #fff;
+    border: none;
+    margin-left:20%;
+    margin-top: 5.5%;
+    border-radius: 2px;
+}
+.conteudo
+{
+    position: relative;
+    padding: 5%;
+    height: 72vh;
+    width: 90%;
+}
+.cabecalho
+{
+    height: 5vh;
+}
+.titulo
+{
+    display: flex;
+    font-size: 20px;
+}
+.titulo #tit1
+{
+    margin-left: 18%;
+}
+.titulo #tit2
+{
+    margin-left: 50%;
+}
+.blocos
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-top: 15%;
+}
+.blocos bloc1
+{
+    border: solid 1px #000;
+    height: 20vh;
+    width:20vw;
+}
+.blocos bloc2
+{
+    border: solid 1px #000;
+    height: 20vh;
+    width:20vw;
+}
+.imagem img
+{
+    width: 10%;
+    margin-left: 30%;
+}
+.blocos .bloc1
+{
+    height: 100%;
+    width: 24vw;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+.blocos .bloc2
+{
+    height: 100%;
+    width: 24vw;
+    border: solid 2px #000;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+.inputs
+{
+    width:24vw;
+    margin-top: 5%;
+}
+.inputs .nome_saida
+{
+    width: 80%;
+    margin-left: 25px;
+    background: #02141A;
+    border-radius: 3px;
+    color: #fff;
+    border:solid 1px #02141A;
+}
+
+.inputs .email_saida
+{
+    background: #02141A;
+    color: #fff;
+    border:solid 1px #02141A;
+    border-radius: 3px;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.baixo .textarea
+{
+    margin: 20px 0 0 25px;
+    width:80%;
+    resize: none;
+    height: 27vh;
+    background: #02141A;
+    border: none;
+    border-radius: 3px;
+}
+.bloc1 .botao
+{
+    background: #02141A;
+    border: 0;
+    padding:6px 15px;
+    color: #fff;
+    border-radius: 2px;
+    margin:5% 0 0 40%;
+}
